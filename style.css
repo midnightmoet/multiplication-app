@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: aliceblue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+.input:hover {
+    border: 1px solid black;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.input::placeholder {
+    color: lightgray;
+    font-family: cursive;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.btn {
+    background: blueviolet;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: cursive;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+    background: black;
+    color: blueviolet;
+    cursor: pointer;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px rgba(255 , 255, 255, 0.5);
+}
+
+.score {
+    color: blueviolet;
+    text-align: right;
+    font-size: 20px;
+}
